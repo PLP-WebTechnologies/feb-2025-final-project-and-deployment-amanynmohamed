@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Leeknty Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Discover Your Beauty</h2>
+            <p>Find the best cosmetics and skincare products.</p>
+            <a href="products.html" class="button">Shop Now</a>
+        </section>
+
+        <section class="features">
+            <div>
+                <h3>High Quality</h3>
+                <p>Only the best for your skin.</p>
+            </div>
+            <div>
+                <h3>Natural Ingredients</h3>
+                <p>Safe and effective formulations.</p>
+            </div>
+            <div>
+                <h3>Worldwide Shipping</h3>
+                <p>Delivering to your doorstep.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="current-year">2025</span> Leeknty Store. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Dynamically update the year in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
